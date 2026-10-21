@@ -19,14 +19,7 @@ def greet_names():
     names = [
         "World",
         "Alice",
-        "Bob",
         "Charlie",
-        "Diana",
-        "Ethan",
-        "Julia",
-        "Kevin",
-        "Luna",
-        "Mason",
         "Nora",
     ]
     for name in names:
@@ -36,7 +29,7 @@ def greet_names():
 def main():
     print("1. Circle measurements")
     print("2. Fat-burning heart rate")
-    print("3. Greet 15 names")
+    print("3. Greet 4 names")
     choice = input("Choose an option (1-3): ")
 
     if choice == "1":
